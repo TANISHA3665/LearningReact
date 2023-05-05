@@ -1,5 +1,5 @@
 import img from './../../assets/img/img.png';
-import './Header.css'
+import './Header.css';
 const Header = () => {
   return (
     <div className="head-container">
