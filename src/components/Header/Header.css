@@ -1,16 +1,36 @@
-.head-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.head-img{
-    width: 400px;
+.head-img {
+  width: auto;
+  transition: min-width 1s , max-width 1s;
 }
 
-.head-text{
-    margin-top: -5px;
-    margin-bottom: 15px;
-    font-family: "Hachi Maru Pop", cursive;
-    font-size: 2.5rem;
+.head-img-expanded {
+  max-width: 400px;
+  min-width: 350px;
+}
+
+.head-img-contracted {
+  max-width: 200px;
+  min-width: 100px;
+}
+
+.head-text {
+  margin-top: -5px;
+  margin-bottom: 15px;
+  font-family: 'Hachi Maru Pop', cursive;
+  font-size: 2.25rem;
+  transition: font-size 1s;
+}
+
+.head-text-expanded{
+    font-size: 2.25rem;
+}
+
+.head-text-contracted{
+    font-size: 1.5rem;
 }
