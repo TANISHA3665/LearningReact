@@ -2,11 +2,19 @@
 
 A name generator react web app
 
+<img width="960" alt="homepage" src="https://user-images.githubusercontent.com/62883463/236628617-a775961d-34c3-4dff-ae89-dd0b05531dd8.png">
+
+<img width="960" alt="suggested_names" src="https://user-images.githubusercontent.com/62883463/236628657-ff186e77-e803-4542-93e4-f39ef5b68764.png">
+
+
 ## 📝Concepts Learned📝 :
 - create-react-app
 - React folder structure
-- React components - functional and class-based
+- React components
+   - Functional
+   - Class-based
 - States and props
+-useState Hooks
 
 
 ## 💎Resources💎 :
